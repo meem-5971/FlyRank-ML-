@@ -14,7 +14,7 @@
 <body class="markdown-body">
   <div id="content">Loading report...</div>
   <script>
-    fetch('work/capstone_report.md')
+    fetch('work/capstone_report_template.md')
       .then(response => {
         if (!response.ok) throw new Error('Could not find work/capstone_report.md');
         return response.text();
